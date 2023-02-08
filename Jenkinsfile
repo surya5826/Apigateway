@@ -1,7 +1,7 @@
 node {
 stage("Git Clone"){
 
-git branch: 'master', url: 'https://github.com/surya5826/Apigateway.git'
+git branch: 'main', url: 'https://github.com/surya5826/Apigateway.git'
 }
 
 stage("Docker build"){
